@@ -16,7 +16,7 @@ function App() {
     e.preventDefault();
 
     try {
-      const response = axios.post("http://127.0.0.1:8000/send-email", {
+      const response = axios.post("https://abou-chaouki.fr/send-email", {
         email: email,
       });
 
