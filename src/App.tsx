@@ -42,7 +42,7 @@ function App() {
     <div className="min-h-screen bg-[#f5f5f5] flex flex-col">
       <Header />
       <main className="flex-grow  w-full">
-        <section className="relative w-full h-[600px] py-20 px-4 md:px-10 lg:px-20 xl:px-[140px]">
+        <section className="relative w-full h-auto py-20 px-4 md:px-10 lg:px-20 xl:px-[140px]">
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: `url(${cover1})` }}
