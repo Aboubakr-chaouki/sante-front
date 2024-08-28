@@ -4,19 +4,19 @@ import logo2 from "../assets/logosanteformaprohiddenbackground.png";
 
 function Footer() {
   return (
-    <footer className="bg-[#2a1f40] relative w-full h-auto  py-14 px-4 md:px-10 lg:px-20 xl:px-[140px]">
-      <div className="flex justify-between">
-        <div className="flex-1 px-4 mr-12">
+    <footer className="bg-[#2a1f40] relative w-full h-auto py-14 px-4 md:px-10 lg:px-20 xl:px-[140px]">
+      <div className="flex flex-col sm:flex-row justify-between">
+        <div className="flex-1 px-4 mr-0 sm:mr-12 mb-8 sm:mb-0">
           <div>
             <img
-              className="w-[300px] h-auto"
+              className="w-[200px] sm:w-[300px] h-auto"
               src={logo2}
               alt="logo Santeformapro"
-            ></img>
+            />
           </div>
           <div>
-            <div className="flex space-x-4 mt-6">
-              <div>
+            <div className="flex flex-col sm:flex-row space-x-0 sm:space-x-4 mt-6">
+              <div className="mb-4 sm:mb-0">
                 <img
                   className="w-[150px] h-[90px]"
                   src={imgfooter1}
@@ -40,7 +40,8 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex-1 px-12 flex flex-col space-y-2">
+
+        <div className="flex-1 px-0 sm:px-12 flex flex-col space-y-2 mb-8 sm:mb-0">
           <h3 className="font-medium text-[18px] mb-4 text-white">
             Formations
           </h3>
@@ -74,7 +75,7 @@ function Footer() {
           </a>
         </div>
 
-        <div className="flex-1 px-12 flex flex-col space-y-2">
+        <div className="flex-1 px-0 sm:px-12 flex flex-col space-y-2 mb-8 sm:mb-0">
           <h3 className="font-medium text-[18px] mb-4 text-white">Support</h3>
           <a
             href="https://www.santeformapro.com/foire-aux-questions/"
@@ -92,7 +93,7 @@ function Footer() {
           </a>
         </div>
 
-        <div className="flex-1 px-12 flex flex-col space-y-2">
+        <div className="flex-1 px-0 sm:px-12 flex flex-col space-y-2">
           <h3 className="font-medium text-[18px] mb-4 text-white">
             Liens utiles
           </h3>
@@ -154,8 +155,9 @@ function Footer() {
           </a>
         </div>
       </div>
-      <div className="h-[1px] bg-gray-500 mt-6 relative w-full md:px-10 lg:px-20 xl:px-[140px]"></div>
-      <div className="text-gray-500 text-[14px] mt-12">
+
+      <div className="h-[1px] bg-gray-500 mt-6 relative w-full"></div>
+      <div className="text-gray-500 text-[14px] mt-12 text-center md:text-left">
         <p>
           contact@santeformapro.com / 04 42 17 90 82 © 2022 Santé Formapro -
           Tous droits réservés
