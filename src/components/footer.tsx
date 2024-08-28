@@ -1,5 +1,5 @@
-import imgfooter1 from "../assets/Logo Qualiopi Formation.png";
-import imgfooter2 from "../assets/odpc recherche.png";
+import imgfooter1 from "../assets/LogoQualiopiFormation.png";
+import imgfooter2 from "../assets/odpcrecherche.png";
 import logo2 from "../assets/logo santeformapro hidden background.png";
 
 function Footer() {

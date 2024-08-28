@@ -1,5 +1,5 @@
 import "./App.css";
-import cover1 from "./assets/Jeune homme vacciné.jpg";
+import cover1 from "./assets/Jeunehommevacciné.jpg";
 import imgArticle1 from "./assets/imgArticle1.jpg";
 import imgArticle2 from "./assets/imgarticle2.jpg";
 import imgArticle3 from "./assets/imgArticle3.jpg";

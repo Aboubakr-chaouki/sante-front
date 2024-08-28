@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/Logo Santeformapro.jpeg";
+import logo from "../assets/LogoSanteformapro.jpeg";
 
 function Header() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
