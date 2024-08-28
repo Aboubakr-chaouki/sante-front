@@ -16,18 +16,21 @@ function App() {
     e.preventDefault();
 
     try {
-      const response = axios.post("https://abou-chaouki.fr/send-email", {
-        email: email,
-      });
-
-      response
-        .then((res) => {
-          console.log("Email envoyé avec succès:", res.data);
-          alert("Email envoyé avec succès!");
+      axios
+        .post(
+          "https://abou-chaouki.fr/send-email",
+          { email },
+          {
+            headers: {
+              "Content-Type": "application/json",
+            },
+          }
+        )
+        .then((response) => {
+          console.log("Email envoyé avec succès", response.data);
         })
-        .catch((err) => {
-          console.error("Erreur lors de l'envoi de l'email:", err);
-          alert("Erreur lors de l'envoi de l'email.");
+        .catch((error) => {
+          console.error("Erreur lors de l'envoi de l'email", error);
         });
     } catch (error) {
       console.error("Erreur dans la fonction handleSendMail:", error);
